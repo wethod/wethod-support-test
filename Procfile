@@ -1,0 +1,1 @@
+web: bundle exec jekyll build -c _config.yml && bundle exec puma -C config/puma.rb
